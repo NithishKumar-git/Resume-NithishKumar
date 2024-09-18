@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:linear-gradient(blue,deepskyblue);
+    height:600px ;
+    width: 95%;
+    border-radius: 50px;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+h1{
+    position: relative;
+    
+}
+table{
+    border: 1px ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px;
+    background:linear-gradient(gray,white);
+    padding: 50px ;
+    font-family: fantasy;
+}
+button{
+    height: 20px;
+    width: 250px;
+    background-color: plum;
+    border-radius: 20px;
+    border: none;
+    
+}
+input,textarea{
+    background-color: antiquewhite;
+    color: black;
+    border: 1px solid black;
+    background: transparent;
+}
